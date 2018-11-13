@@ -20,8 +20,14 @@ public class ArrayListMagnet {
         }
         printAL(a);
         printAL(a);
+        String q = 2+2+"=value";
+        System.out.println(q);
+        String w = "Java";
+        String e = new String("Java");
+        System.out.println(w==e);
+        System.out.println(w.equals(e));
     }
-
+    void check(){}
     public static void printAL(ArrayList<String> al) {
         for (String element : al) {
             System.out.print(element + " ");
